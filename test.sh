@@ -92,6 +92,8 @@ echo $BASE_URL
 export CYPRESS_BASE_URL=${BASE_URL}
 echo $CYPRESS_BASE_URL;
 
+sleep 1800
+
 ######
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update -y
