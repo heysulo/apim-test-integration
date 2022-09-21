@@ -91,7 +91,7 @@ echo $BASE_URL
 
 export CYPRESS_BASE_URL=${BASE_URL}
 echo $CYPRESS_BASE_URL;
-export $CYPRESS_BASE_URL=`echo $CYPRESS_BASE_URL | sed "s|8243|9443|g"`
+export CYPRESS_BASE_URL=`echo $CYPRESS_BASE_URL | sed "s|8243|9443|g"`
 echo $CYPRESS_BASE_URL;
 
 sleep 600
